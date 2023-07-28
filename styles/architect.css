@@ -9,7 +9,13 @@
   }
 
   .btn-primary{
-    
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
   }
 
   /* header styles */
@@ -48,7 +54,7 @@
   }
 
   .banner-content {
-    width: 800px;
+    max-width: 800px;
     text-align: center;
     margin: 0 auto;
   }
@@ -61,4 +67,33 @@
 
   .banner-description {
     color: #727272;
+  }
+
+  .banner img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+  /* responsive media queries */
+
+  /* mobile devices responsive styles */
+
+  @media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+  }
+
+  /* For Tablet and Medium Devices */
+  @media screen and (min-width: 576px) and (max-width: 960px) {
+        header {
+            padding: 50px;
+        }
+        nav {
+            flex-direction: column;
+        }
   }
