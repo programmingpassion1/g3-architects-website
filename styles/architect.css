@@ -212,7 +212,6 @@ footer {
   border-radius: 8px;
   background: #FFF4E7;
   margin: 0 240px;
-  height: 100px;
 }
 
 .footer-content{
@@ -220,6 +219,7 @@ footer {
   text-align: center;
   font-size: 1.25rem;
   font-weight: 400;
+  padding: 40px 410px;
 }
 
 
